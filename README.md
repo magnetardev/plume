@@ -19,6 +19,14 @@ function main(argc: i32, argv: string*) -> i32 {
 }
 ```
 
+## Usage
+(replace `plume` with `cargo run -- {command}` if running from source).
+``` shell
+# this is not implemented yet, just create a project.json file in the root of your project. (see examples folder)
+$ plume init my-project && cd my-project
+$ plume build
+```
+
 ## Goals
 - Target WebAssembly nicely with a minimal runtime.
 - Be able to link and use any C library.
@@ -28,6 +36,8 @@ function main(argc: i32, argv: string*) -> i32 {
 - Reach self-hosting language status (can compile itself).
 
 ## To-Do
+- [ ] `plume init` command to create a plume project.
+- [ ] `plume compile` command to directly compile source files.
 - [ ] File validation (ensure that code will work with LLVM)
 - [ ] Determine types for values at parsing/verification time.
 - [ ] Clean up Lexer code
