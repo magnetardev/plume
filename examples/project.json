@@ -1,0 +1,8 @@
+{
+  "name": "@plume/examples",
+  "version": "0.1.0",
+  "authors": ["Magnetar <contact@magnetar.dev>"],
+  "description": "Examples for the plume language",
+  "entry": "main.plume",
+  "kind": "bin"
+}

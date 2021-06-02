@@ -1,0 +1,8 @@
+/target
+.DS_Store
+*.o
+*.ll
+*.bc
+*.wasm
+*.a
+*.out

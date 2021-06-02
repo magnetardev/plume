@@ -1,0 +1,15 @@
+[package]
+name = "plume"
+version = "0.1.0"
+authors = ["Magnetar <contact@magnetar.dev>"]
+edition = "2018"
+description = "The compiler for the Plume language"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+llvm-sys = "120"
+clap = "2.33.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
